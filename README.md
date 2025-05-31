@@ -20,7 +20,7 @@ A [Model Context Protocol](https://modelcontextprotocol.io) server that uses [In
 - `INSPIRE_API_BASE`: base path for the backend gateway. Default: `http://localhost:7080`
 - `IMAGES_BASE_PATH`: base path for images. Example: `https://<some-bucket>.s3.com/`
 
-Depending on platform (docker/node), variables are set using env or arguments
+Variables can be configured using environment variables or command-line arguments, depending on the runtime platform (Docker/Node). 
 
 ## Building
 
