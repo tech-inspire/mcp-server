@@ -2,7 +2,7 @@
 
 # Inspire MCP Server
 
-A Model Context Protocol server that uses [Inspire](https://github.com/tech-inspire) backend images search capabilities.
+A [Model Context Protocol](https://modelcontextprotocol.io) server that uses [Inspire](https://github.com/tech-inspire) backend images search capabilities.
 ### Available Tools
 
 - `get-similar-images-by-description` - Get similar images by their text description
