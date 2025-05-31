@@ -1,0 +1,37 @@
+{
+  "name": "@tech-inspire/mcp",
+  "description": "A Model Context Protocol server that provides images search capabilities",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": {
+    "inspire-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "build": "tsc && chmod +x dist/*.js",
+    "lint": "eslint .",
+    "format": "prettier --write src/"
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@connectrpc/connect": "^2.0.2",
+    "@connectrpc/connect-web": "^2.0.2",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "axios": "^1.9.0",
+    "inspire-api-contracts": "github:tech-inspire/api-contracts",
+    "sharp": "^0.34.2",
+    "zod": "^3.25.42"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@types/node": "^22.15.29",
+    "eslint": "^9.28.0",
+    "globals": "^16.2.0",
+    "prettier": "3.5.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.33.0"
+  }
+}
