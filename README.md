@@ -1,8 +1,11 @@
-[//]: # (Used https://github.com/modelcontextprotocol/servers/blob/main/src/sequentialthinking/README.md as template)
-
 # Inspire MCP Server
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server that uses [Inspire](https://github.com/tech-inspire) backend images search capabilities.
+
+<a href="https://glama.ai/mcp/servers/@tech-inspire/mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@tech-inspire/mcp-server/badge" alt="Inspire Server MCP server" />
+</a>
+
 ### Available Tools
 
 - `get-similar-images-by-description` - Get similar images by their text description
