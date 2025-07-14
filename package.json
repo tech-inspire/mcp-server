@@ -22,7 +22,7 @@
     "@modelcontextprotocol/sdk": "^1.15.0",
     "axios": "^1.10.0",
     "inspire-api-contracts": "github:tech-inspire/api-contracts",
-    "sharp": "^0.34.2",
+    "sharp": "^0.34.3",
     "zod": "^3.25.76"
   },
   "devDependencies": {
